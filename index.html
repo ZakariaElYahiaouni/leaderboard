@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Ranking</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #0c0c0c;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Ranking Styles */
+        .ranking {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .ranking-item {
+            background-color: #1c1c1c;
+            border-radius: 10px;
+            width: 80%;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .ranking-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .ranking-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .ranking-item p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .ranking-item .score {
+            font-size: 36px;
+            font-weight: bold;
+            color: #00d8ff;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 991px) {
+            .ranking-item {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .ranking-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;color: yellow;">Classifica dei tumoracci By Pranzetto Chill</h1>
+  <h4 style="text-align: center;">La classifica verra' aggiornata ogni mese</h4>
+    <div class="container">
+        <div class="ranking">
+            <div class="ranking-item">
+                <h2>Rank 1</h2>
+                <h3>Samuele Bacchetta</h3>
+                <div class="score">9</div>
+            </div>
+            <div class="ranking-item">
+                <h3>Rank 2</h3>
+                <p>Amos Bucaria</p>
+                <div class="score">8.25</div>
+            </div>
+            <div class="ranking-item">
+                <h3>Rank 3</h3>
+                <p>Tommaso Cugini</p>
+                <div class="score">8</div>
+            </div>
+            <div class="ranking-item">
+                <h3>Rank 4</h3>
+                <p>Adib Alhanfif</p>
+                <div class="score">7.5</div>
+            </div>
+            <div class="ranking-item">
+                <h3>Rank 5</h3>
+                <p>Simone Di Leone</p>
+                <div class="score">7.4</div>
+            </div>
+            <div class="ranking-item">
+                <h3>Rank 6</h3>
+                <p>Matias Federici</p>
+                <div class="score">7.3</div>
+            </div>
+            <div class="ranking-item">
+                <h3>Rank 7</h3>
+                <p>Leonardo Galli</p>
+                <div class="score">6.6</div>
+            </div>
+            <div class="ranking-item">
+                <h3>Rank 8</h3>
+                <p>Giuseppe Pereira</p>
+                <div class="score">6.2</div>
+            </div>
+            <div class="ranking-item">
+                <h3>Rank 9</h3>
+                <p>Zakaria El Yahiaouni</p>
+                <div class="score">6.1</div>
+            </div>
+            
+            <div class="ranking-item">
+                <h3>Rank 10</h3>
+                <p>Davide Paratici</p>
+                <div class="score">6</div>
+            </div>
+            
+            <div class="ranking-item">
+                <h3>Rank 11</h3>
+                <p>Davide Monfasani</p>
+                <div class="score">6</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
